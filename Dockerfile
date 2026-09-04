@@ -12,7 +12,7 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copia el .war y lo renombra a ROOT.war para que la app quede en la raíz
 # del dominio (sin tener que escribir /Cafeteriatalleres en la URL).
-COPY Cafeteriatalleres.war /usr/local/tomcat/webapps/ROOT.war
+COPY Papasaurios.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
